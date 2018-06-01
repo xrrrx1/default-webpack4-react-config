@@ -1,14 +1,14 @@
-import React, { Component } from "react";
-import ReactDOM from "react-dom";
+import React from 'react';
+import styled from 'styled-components';
 
-class App extends Component {
-  render() {
-    return (
-      <div>
-        <p>Default WP4 config</p>
-      </div>
-    );
-  }
-}
+const ContainerDiv = styled.div`
+  color: grey;
+`;
+
+const App = () => (
+  <ContainerDiv>
+    <p>Default WP4 config</p>
+  </ContainerDiv>
+);
 
 export default App;
